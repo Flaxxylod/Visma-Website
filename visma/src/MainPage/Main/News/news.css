@@ -1,0 +1,53 @@
+
+
+
+
+.NewsTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.AllNews{
+    color: #3D348B;
+    letter-spacing: 0.1;
+    font-weight: 700;
+    padding: 4px 0;
+    margin-right:15px ;
+}
+
+
+.NewsBottom{
+    column-gap: 24px;
+    display: flex;
+}
+
+.Card-Block{
+    margin-top: 60px;
+    
+    width:306px;
+    
+}
+
+
+.NewsText {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 306px;
+}
+
+.span-news  {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.p-news{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}

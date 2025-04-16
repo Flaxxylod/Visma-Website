@@ -1,0 +1,54 @@
+.Services-content{
+    margin-bottom: 230px;
+}
+.ServiceBlock{
+    display: flex;
+    column-gap: 134px;
+}
+
+.Service-left h2 {
+    margin-bottom: 60px;
+}
+
+.InfoBlock {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    text-align: left;
+
+}
+
+.InfoBlock li {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.InfoBlock li > a {
+    border-bottom: 1px dashed blue;
+}
+
+.PDF{
+    max-width: 46px;
+    max-height: 34px;
+    padding: 8px 10px;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #5DB7DE;
+    color: #fff;
+}
+
+
+.Service-right{
+    display: grid;
+    grid-template-rows: 233px 233px;
+    grid-template-columns: 416px  416px;
+    column-gap: 24px;
+    row-gap: 24px;
+}

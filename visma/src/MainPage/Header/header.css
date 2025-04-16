@@ -1,0 +1,65 @@
+.header-content {
+    position: relative;
+    padding-bottom: 263px;
+}
+
+.header-main {
+    display: flex;
+    column-gap: 134px;
+}
+
+.Background-block {
+    width: 100%;
+}
+
+.Background {
+    min-width: 1920px;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.header-left {
+    margin-top: 180px;
+    max-width: 526px;
+
+}
+
+.CompanyName {
+    padding-bottom: 40px;
+}
+
+.info {
+    color: #ffff;
+    max-width: 322px;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.CompanyInfo-Header {
+    display: flex;
+    vertical-align: text-top;
+    column-gap: 10px;
+}
+
+.AboutCompany{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.information {
+    padding: 4px 0;
+    color: #ffff;
+    font-weight: 700;
+    letter-spacing: 0.1;
+}
+
+.header-right {
+    
+    margin-top: 133px;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: repeat(2, minmax(306px,1fr));
+    column-gap: 24px;
+    row-gap: 24px;
+}

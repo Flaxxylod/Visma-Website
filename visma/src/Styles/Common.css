@@ -1,0 +1,64 @@
+*{
+    font-family:PT Sans;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.wrap {
+    max-width: 1920px;
+    
+    margin: 0 auto;
+}
+
+
+
+.container {
+    max-width: 1356px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #FFFF;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+span {
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+strong {
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffff;
+}
+
+.StrBlack{
+    font-weight: 700;
+    font-size: 19px;
+    color: #333333;
+}
+
+a{
+    color: #3D348B;
+    font-weight: 400;
+    font-size: 16px;
+    
+}

@@ -1,0 +1,65 @@
+.TheCompany-content {
+    margin-bottom: 250px;
+    position: relative;
+    
+}
+
+.TheCompanyBackground{
+    min-width: 100%;
+    min-height: 776px;
+    background-color: #3D348B;
+    opacity: 0.05;
+    position: absolute;
+    z-index: -1;
+}
+
+.CompanyBlock {
+    display: flex;
+    column-gap: 134px;
+
+}
+
+.CompanyInfo {
+    flex-direction: column;
+    row-gap: 16px;
+    margin-top: 60px;
+    max-width: 636px;
+    max-height: 550px;
+}
+
+
+.CompanyInfo li {
+    margin-bottom: 16px;
+    list-style-type: disc;
+    color: #333333;
+}
+
+.Company-right {
+    max-width: 526px;
+    max-height: 550px;
+    margin-top: 120px;
+}
+
+.Company-right img {
+    width: 526px;
+    right: 350px;
+    margin-bottom: 30px;
+}
+
+.Link-Service {
+    padding: 30px 35px;
+    border-radius: 20px;
+    background-color: #5DB7DE;
+}
+
+.Link-Service p {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffff;
+    margin-bottom: 38px;
+}
+
+.Link-Service:hover {
+    transition: 0.5s;
+    background-color: #57a2c3;
+}

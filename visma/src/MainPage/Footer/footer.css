@@ -1,0 +1,86 @@
+.Footer-content {
+    position: relative;
+    
+}
+
+.BackgroundFooter-Top {
+    background: #3D348B;
+    opacity: 0.85;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.BackgroundFooter-Bottom{
+    background: #3D348B;
+    position: absolute;
+    min-width: 100%;
+    min-height: 484px;
+    z-index: -1;
+}
+
+.Footer-content span a {
+    font-weight: 400;
+    color: #ffff;
+}
+.Footer-content span{
+    margin-right: 20px;
+}
+
+.Footer-content ul {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffff;
+    margin-top: 20px;
+}
+
+.Footer-content ul li {
+    margin-top: 15px;
+}
+.Footer-top{
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.Footer-content img {
+    margin-right: 20px;
+}
+
+.PointMap{
+    width: 22px;
+    height: 28px;
+}
+.Call {
+    width: 22px;
+    height: 22px;
+}
+
+.Mail{
+    width: 25px;
+    height: 20px;
+}
+
+.Footer-bottom{
+    padding-top: 80px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: space-between;
+}
+
+.FooterBottom-block{
+    width: 306px;
+}
+
+.ProtectRight {
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+    text-transform: uppercase;
+    color: #ffff;
+    opacity: 0.5;
+}
