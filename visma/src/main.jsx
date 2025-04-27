@@ -3,13 +3,27 @@ import { createRoot } from 'react-dom/client'
 
 import './Styles/Reset.css'
 import './Styles/Common.css'
-import App from './App.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Landing from './MainPage/Landing.jsx'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
+import RequestClient from './ClientRequest/RequestClient.jsx'
+import GetRequestClient from './GetRequestClient/GetRequestClient.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App/>
+    element: <Navigate to="/landing"/>,
+  },
+  {
+    path: '/landing',
+    element: <Landing/>
+  },
+  {
+    path:'/request+client',
+    element: <RequestClient/>
+  },
+  {
+    path:'/get+request+client',
+    element: <GetRequestClient/>
   }
 ])
 

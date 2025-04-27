@@ -19,6 +19,16 @@
     margin: 0 auto;
 }
 
+a{
+    transition: 0.2s;
+    
+}
+
+a:hover{
+    transition: 0.3s;
+    color: #FF9D00;
+}
+
 h1 {
     font-weight: 700;
     font-size: 50px;
@@ -30,6 +40,14 @@ h1 {
 h2{
     font-weight: 700;
     font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 25px;
     line-height: 1.4;
     letter-spacing: 0;
     color: #333333;
@@ -56,9 +74,3 @@ strong {
     color: #333333;
 }
 
-a{
-    color: #3D348B;
-    font-weight: 400;
-    font-size: 16px;
-    
-}

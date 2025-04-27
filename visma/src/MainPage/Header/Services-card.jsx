@@ -1,7 +1,9 @@
 import './services-card.css'
-const ServicesCard = ({children , typeCard}) => {
+const ServicesCard = ({ children, typeCard }) => {
     return (
+
         <div className={typeCard}>
+
             <span className='span-header'>
                 Услуги
             </span>
@@ -9,7 +11,9 @@ const ServicesCard = ({children , typeCard}) => {
             <strong>
                 {children}
             </strong>
+
         </div>
+
     );
 }
 

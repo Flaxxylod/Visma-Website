@@ -47,6 +47,7 @@
 }
 
 .Link-Service {
+    transition: 0.3s;
     padding: 30px 35px;
     border-radius: 20px;
     background-color: #5DB7DE;
@@ -59,7 +60,14 @@
     margin-bottom: 38px;
 }
 
+.Link-Service:hover p, 
+.Link-Service:hover strong{
+    transition: 0.3s;
+    color: #FF9D00;
+}
+
 .Link-Service:hover {
     transition: 0.5s;
     background-color: #57a2c3;
+    
 }

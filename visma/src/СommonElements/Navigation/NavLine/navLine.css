@@ -1,0 +1,35 @@
+.NavLine-content {
+    
+    background-color: rgba(61, 52, 139, 0.05);
+    padding: 25px 25px;
+}
+
+.Directory {
+    padding-left:85px;
+    display: flex;
+}
+
+.Directory span{
+    display: flex;
+    
+    align-items: center;
+    column-gap: 7.5px;
+}
+
+.Directory span::after{
+    margin-right: 7px;
+    content: "";
+    display: block;
+    background-image: url(./../../../assets/RequestClient/NavArrow.svg);
+    width: 4px;
+    height: 6px;
+}
+
+.Directory span:last-child::after{
+    content: none;
+}
+
+.Directory a{
+    color: #333333;
+    font-weight: 600;
+}

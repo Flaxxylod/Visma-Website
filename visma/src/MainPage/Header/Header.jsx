@@ -1,8 +1,9 @@
-import Nav from "./Nav";
+import Nav from "../../СommonElements/Navigation/Nav";
 import './header.css'
-import Background from './../../assets/Header/Header-Background.png'
-import Button from './../../assets/Header/ByCompanyBtn.svg'
+import Background from '../../assets/Landing/Header/Header-Background.png'
+import Button from '../../assets/Landing/Header/ByCompanyBtn.svg'
 import ServicesCard from "./Services-card";
+import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header className="header-content">
@@ -28,34 +29,34 @@ const Header = () => {
 
                     </div>
                     <div className="header-right">
-                        <a href="#!">
+                        <Link to="/request+client">
                             <button>
                                 <ServicesCard typeCard="card-blockHeader">
                                     Погрузочно-разгрузочная деятельность
                                 </ServicesCard>
                             </button>
-                        </a>
-                        <a href="#!">
+                        </Link>
+                        <Link to="/request+client">
                             <button>
                                 <ServicesCard typeCard="card-blockHeader">
-                                Хранение <br /> грузов
+                                    Хранение <br /> грузов
                                 </ServicesCard>
                             </button>
-                        </a>
-                        <a href="#!">
+                        </Link>
+                        <Link to="/request+client">
                             <button>
                                 <ServicesCard typeCard="card-blockHeader">
-                                Складские <br /> операции
+                                    Складские <br /> операции
                                 </ServicesCard>
                             </button>
-                        </a>
-                        <a href="#!">
+                        </Link>
+                        <Link to="/request+client">
                             <button>
-                                <ServicesCard typeCard="card-blockHeader"> 
-                                Швартовые <br /> операции
+                                <ServicesCard typeCard="card-blockHeader">
+                                    Швартовые <br /> операции
                                 </ServicesCard>
                             </button>
-                        </a>
+                        </Link>
 
                     </div>
 

@@ -1,7 +1,8 @@
+
 export const NewsCards = [
     {
         Id: 0,
-        img: 'src/assets/Main/NewsImage_1.png',
+        img: "src/assets/Main/NewsImage_3.png",
         date: "20/05/22",
         Strong: "Semper eu pulvinar eget integer",
         paragraph: "Pretium duis phasellus netus ac. Nunc nibh nunc integer feugiat et aliquam cras. Amet pharetra montes ipsum gravida tellus tellus."

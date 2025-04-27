@@ -1,0 +1,8 @@
+.Checkbox-content{
+    display: flex;
+    column-gap: 15px;
+}
+
+.Checkbox-content span {
+    font-weight: 600;
+}

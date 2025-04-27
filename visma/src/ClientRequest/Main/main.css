@@ -1,0 +1,10 @@
+.FormRequest-conten .Main-content{
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+.Form-Block{
+    display: flex;
+    flex-direction: column;
+}

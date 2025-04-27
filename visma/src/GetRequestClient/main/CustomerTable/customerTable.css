@@ -1,0 +1,7 @@
+.Table-content{
+    
+}
+.customerTable, .lotTable {
+    display: flex;
+    margin-bottom: 80px;
+}

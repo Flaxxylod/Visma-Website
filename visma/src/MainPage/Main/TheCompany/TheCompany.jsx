@@ -1,5 +1,5 @@
 import './theCompany.css'
-import Video from './../../../assets/Main/Videos.png'
+import Video from "../../../assets/Landing/Main/Videos.png"
 const TheCompany = () => {
     return (
 

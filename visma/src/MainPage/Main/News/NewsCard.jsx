@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
-import './news.css'
+import './news.css';
 import { NewsCards } from './NewsData';
-const NewsCard = () => {
-    const Cards = NewsCards.map(cards =>
 
-        <div className='Card-Block'>
+const NewsCard = () => {
+    const Cards = NewsCards.map(cards => (
+        <div key={cards.Id} className='Card-Block'>
             <a href="">
                 <img className='CardPicture' src={cards.img} alt="Новости" />
             </a>
@@ -14,14 +14,12 @@ const NewsCard = () => {
                 <p className='p-news'>{cards.paragraph}</p>
             </div>
         </div>
+    ));
 
-    )
     return (
         <Fragment>
             {Cards}
         </Fragment>
-
-
     );
 }
 

@@ -1,4 +1,5 @@
 .card-blockHeader {
+    transition: 0.3s;
     min-width: 306px;
     max-width: 306px;
     min-height: 250px;
@@ -18,9 +19,17 @@
 .card-blockHeader:hover {
     transition: 0.5s;
     background-color: #57a2c3;
+    
+}
+
+.card-blockHeader:hover .span-header,
+.card-blockHeader:hover strong {
+    color: #FF9D00;
+    transition: 0.3s;
 }
 
 .card-blockMain {
+    transition: 0.3s;
     min-width: 416px;
     min-height: 223px;
     max-width: 416px;
@@ -29,6 +38,12 @@
     padding: 30px 35px;
     background-color: #3D348B;
     color: #ffff;
+}
+
+.card-blockMain:hover .span-header,
+.card-blockMain:hover strong {
+    color: #FF9D00;
+    transition: 0.3s;
 }
 
 .card-blockMain:hover {

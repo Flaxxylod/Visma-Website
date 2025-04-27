@@ -1,6 +1,6 @@
 import './news.css'
 import NewsCard from './NewsCard';
-import ButtonNews from './../../../assets/Main/Button-news.svg'
+import ButtonNews from '../../../assets/Landing/Main/Button-news.svg'
 
 const News = () => {
     return (
